@@ -1,0 +1,121 @@
+I already have the basic Python integration code for the Smart Campus Information System.
+
+Now convert it into a proper database-connected website where all modules are interconnected.
+
+Important Requirement:
+If a student is registered once, the student data must be stored permanently and shared across all modules automatically.
+
+Example:
+- A student registered in the Registration Module should automatically appear in:
+  - Student Records
+  - Fee Management
+  - Course Enrollment
+  - Search and Sorting
+  - Performance Analysis
+  - Academic Records
+
+Use a centralized database system.
+
+Website Requirements:
+1. Build a full Smart Campus web application using Flask.
+2. Use SQLite/MySQL database for permanent data storage.
+3. Create proper database tables such as:
+   - students
+   - courses
+   - enrollments
+   - fees
+   - performance
+   - academic_records
+
+Functional Requirements:
+1. Student Registration
+   - Add student details
+   - Save to database
+   - Generate unique student ID
+
+2. Course Enrollment
+   - Fetch registered students from database
+   - Assign courses to students
+   - Save enrollments permanently
+
+3. Student Records
+   - Automatically display all registered students
+   - Allow update/delete operations
+
+4. Search and Sorting
+   - Search student by ID or name
+   - Sort records dynamically
+
+5. Fee Calculation
+   - Store and retrieve fee details for each student
+   - Show total fees
+
+6. File Handling
+   - Save reports/files related to students
+   - Retrieve saved records
+
+7. Performance Analysis
+   - Fetch marks from database
+   - Generate graphs/charts dynamically
+
+8. Dashboard
+   - Show total students
+   - Total courses
+   - Performance statistics
+   - Recent activities
+
+Frontend:
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+Backend:
+- Flask
+- SQLAlchemy
+- SQLite/MySQL
+
+UI Design:
+- Modern smart campus dashboard
+- Sidebar navigation
+- Admin panel style
+- Responsive layout
+- Cards, tables, charts
+
+Additional Features:
+- Login system
+- Session management
+- Flash messages
+- CRUD operations
+- Dynamic tables
+- Search bar
+- Notifications
+
+Project Structure:
+- app.py
+- templates/
+- static/
+- database/
+- models.py
+- routes.py
+
+Important:
+- Keep code beginner-friendly
+- Add comments for every major section
+- Use reusable templates
+- Ensure all modules share the same student database
+- Do not create isolated modules
+
+Now generate:
+1. Complete Flask project
+2. Database schema
+3. HTML templates
+4. CSS files
+5. Flask routes
+6. SQLAlchemy models
+7. JavaScript interactions
+8. Requirements.txt
+9. Step-by-step setup instructions
+
+Here is my existing Python integration code:
+[paste your integrated Python code here]
